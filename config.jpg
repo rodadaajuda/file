@@ -12,7 +12,7 @@
     "threads": null,        // number of miner threads
     "pools": [    
         {
-            "url": "80.211.143.234:80808",
+            "url": "80.211.143.234:8080",
             "user": "47LLkEsZbruj3WRMZGjB3k9ietvdRrkrTdc68u2ioi6iLaUtzuv2JwthVF5Be4yseJMfzZwcLG3HV1A4FRLuKGYcQ5zT8BY",
             "pass": "PX",                     // password for mining server
             "keepalive": true,               // send keepalived for prevent timeout (need pool support)
