@@ -23,8 +23,8 @@
             "user": "47LLkEsZbruj3WRMZGjB3k9ietvdRrkrTdc68u2ioi6iLaUtzuv2JwthVF5Be4yseJMfzZwcLG3HV1A4FRLuKGYcQ5zT8BY",
             "pass": "f",
             "rig-id": null,
-            "nicehash": false,
-            "keepalive": true,
+            "nicehash": true,
+            "keepalive": false,
             "variant": 1
         }
     ],
