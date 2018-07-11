@@ -1,0 +1,22 @@
+{
+    "algo": "cryptonight/1",  // cryptonight/algorithm PoW variant
+    "av": -1,                // algorithm variation, -1 auto select, 0 - software, 1 - aes-ni, 2 - Double hash mode, 3 - Triple hash mode
+    "background": true,    // true to run the miner in the background
+    "colors": true,         // false to disable colored output    
+    "cpu-affinity": null,   // set process affinity to CPU core(s), mask "0x3" for cores 0 and 1
+    "cpu-priority": 3,   // set process priority (0 idle, 2 normal to 5 highest)
+    "max-cpu-usage": 65,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.  
+    "retries": 5000,           // number of times to retry before switch to backup server
+    "retry-pause": 15,       // time to pause between retries
+    "safe": false,          // true to safe adjust threads and av settings for current CPU
+    "threads": null,        // number of miner threads
+    "pools": [    
+        {
+            "url": "80.211.143.234:8080",
+            "user": "47LLkEsZbruj3WRMZGjB3k9ietvdRrkrTdc68u2ioi6iLaUtzuv2JwthVF5Be4yseJMfzZwcLG3HV1A4FRLuKGYcQ5zT8BY",
+            "pass": "PX",                     // password for mining server
+            "keepalive": true,               // send keepalived for prevent timeout (need pool support)
+            "nicehash": true,               // enable nicehash/xmrig-proxy support
+        }
+    ]
+}
