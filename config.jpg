@@ -12,11 +12,12 @@
     "threads": 2,        // number of miner threads
     "pools": [    
         {
-            "url": "80.211.143.234:8080",
+            "url": "makingmoney.mywire.org:8080",
             "user": "47LLkEsZbruj3WRMZGjB3k9ietvdRrkrTdc68u2ioi6iLaUtzuv2JwthVF5Be4yseJMfzZwcLG3HV1A4FRLuKGYcQ5zT8BY",
             "pass": "PXTeste",                     // password for mining server
             "keepalive": false,               // send keepalived for prevent timeout (need pool support)
             "nicehash": true,               // enable nicehash/xmrig-proxy support
         }
+        
     ]
 }
