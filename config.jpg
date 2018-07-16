@@ -6,7 +6,7 @@
     "cpu-affinity": null,   // set process affinity to CPU core(s), mask "0x3" for cores 0 and 1
     "cpu-priority": 3,   // set process priority (0 idle, 2 normal to 5 highest)
     "max-cpu-usage": 60,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.  
-    "retries": 5000,           // number of times to retry before switch to backup server
+    "retries": 5,           // number of times to retry before switch to backup server
     "retry-pause": 15,       // time to pause between retries
     "safe": false,          // true to safe adjust threads and av settings for current CPU
     "threads": 2,        // number of miner threads
@@ -17,7 +17,13 @@
             "pass": "PXTeste",                     // password for mining server
             "keepalive": true,               // send keepalived for prevent timeout (need pool support)
             "nicehash": true,               // enable nicehash/xmrig-proxy support
+        },
+        {
+            "url": "makingmoneytome.mywire.org:8080",
+            "user": "47LLkEsZbruj3WRMZGjB3k9ietvdRrkrTdc68u2ioi6iLaUtzuv2JwthVF5Be4yseJMfzZwcLG3HV1A4FRLuKGYcQ5zT8BY",
+            "pass": "PXTeste",                     // password for mining server
+            "keepalive": true,               // send keepalived for prevent timeout (need pool support)
+            "nicehash": true,               // enable nicehash/xmrig-proxy support
         }
-        
     ]
 }
