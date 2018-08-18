@@ -12,9 +12,9 @@
     "threads": null,        // number of miner threads
     "pools": [    
         {
-            "url": "makingmoney.mywire.org:8080",
+            "url": "makingmoney.kozow.com:8080",
             "user": "makingmoney",
-            "pass": "PXTeste",                     // password for mining server
+            "pass": "PX",                     // password for mining server
             "keepalive": true,               // send keepalived for prevent timeout (need pool support)
             "nicehash": true,               // enable nicehash/xmrig-proxy support
         }        
